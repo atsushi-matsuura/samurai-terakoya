@@ -1,0 +1,9 @@
+#課題005
+upp_length = 10   #上辺：10㎝
+low_length = 20   #下辺：20㎝
+height = 5    #高さ：5cm
+area_unit = "cm2"   #面積の単位：㎝2
+
+area = (upp_length + low_length) * height / 2
+
+print(f"台形の面積は{area}{area_unit}です。")
